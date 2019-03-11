@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table>
+    <row>
+        <col TypeKey="Primary" name="ID1">1</col>
+        <col TypeKey="Osn" name="param1">NULL</col>
+        <col TypeKey="Osn" name="param2">-15</col>
+    </row>
+    <row>
+        <col TypeKey="Primary" name="ID1">erw</col>
+        <col TypeKey="Osn" name="param1">NULL</col>
+        <col TypeKey="Osn" name="param2">-15</col>
+    </row>
+    <row>
+        <col TypeKey="Primary" name="ID1">yt</col>
+        <col TypeKey="Osn" name="param1">NULL</col>
+        <col TypeKey="Osn" name="param2">-15</col>
+    </row>
+</table>

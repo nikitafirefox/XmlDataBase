@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="tables.xsl"?>
+<tables>
+
+
+
+
+
+
+<table name="TEST1">
+    <colPrimary name="ID1" type="VARCHAR" auto="NO"/>
+    <tablesrc>
+        <tsrc typesrc="pr" namesrc="test3"/>
+    </tablesrc>
+    <srccols/>
+    <cols>
+        <col name="param1" default="NULL" type="VARCHAR"/>
+        <col name="param2" default="-15" type="INT"/>
+    </cols>
+</table>
+<table name="TEST2">
+    <colPrimary name="ID2" type="INT" auto="YES">0</colPrimary>
+    <tablesrc>
+        <tsrc typesrc="pr" namesrc="test3"/>
+    </tablesrc>
+    <srccols/>
+    <cols>
+        <col name="yyy" default="3" type="INT"/>
+    </cols>
+</table>
+<table name="test3">
+    <colPrimary name="ID" type="VARCHAR" auto="NO"/>
+    <tablesrc>
+        <tsrc typesrc="pr" namesrc="TEST1"/>
+        <tsrc typesrc="pr" namesrc="TEST2"/>
+    </tablesrc>
+    <srccols>
+        <src name="src1" nametable="TEST1"/>
+        <src name="src2" nametable="TEST2"/>
+    </srccols>
+    <cols>
+        <col name="HUI" default="PIZDA" type="VARCHAR"/>
+    </cols>
+</table>
+</tables>
